@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.background {
+  background: url(../img/Travel_Time_background.png);
+  display: flex;
+  width: 1440px;
+  height: 1024px;
+}
+.main_content {
+  margin-top: 73px; 
+  margin-right: 155px;
+  margin-bottom: 179px;
+  margin-left: 115px;
+}
+.nav_menu {
+  display: flex;
+  justify-content: center;
+  gap: 128px;
+  margin-bottom: 101px;
+}
+.nav_menu__items {
+  list-style-type: none;
+  color: var(--White, #FFF);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  color: var(--White, #FFF);
+  font-family: Poppins;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.text_content {
+  margin-right: 211px;
+  margin-bottom: 396px;
+  margin-left: 210px;
+  color: var(--White, #FFF);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 275;
+  line-height: normal;
+}
+.button_join {
+  display: flex;
+  width: 191px;
+  padding: 16px 28px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid #00B43D;
+  background: #00B43D;
+
+  /* Shadow/xs focused 4px error-100 */
+  box-shadow: 0px 0px 0px 4px #FEE4E2, 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  color: var(--White, #FFF);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 116.667% */
+  margin-left: 490px;
+  margin-right: 489px;
+}
+.rectangle {
+  width: 54px;
+  height: 2px;
+  flex-shrink: 0;
+  border: 1px solid #000;
+  background: rgba(255, 255, 255, 0.50);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
